@@ -388,6 +388,7 @@ GameObject:
   - component: {fileID: 40934297}
   - component: {fileID: 40934295}
   - component: {fileID: 40934296}
+  - component: {fileID: 40934298}
   m_Layer: 0
   m_Name: Quad (21)
   m_TagString: Untagged
@@ -474,6 +475,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 40934293}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &40934298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 40934293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20aaf2b017ceb48a2aa46e7699b51a02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &49393568
 GameObject:
   m_ObjectHideFlags: 0
@@ -3658,6 +3670,26 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.6311787, y: 1.4370114}
   m_EdgeRadius: 0
+--- !u!50 &768129178
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 768129173}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &825656770
 GameObject:
   m_ObjectHideFlags: 0
