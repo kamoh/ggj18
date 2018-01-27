@@ -8,11 +8,11 @@ public class dragTile : MonoBehaviour {
 	public Collider2D collidor;
 	// Use this for initialization
 	void Start () {
-		if (collidor.isTrigger) {
-			Debug.Log("this thing is a trigger");
-		} else if (!collidor.isTrigger) {
-			Debug.Log("this is not a trigger");
-		}
+//		if (collidor.isTrigger) {
+//			Debug.Log("this thing is a trigger");
+//		} else if (!collidor.isTrigger) {
+//			Debug.Log("this is not a trigger");
+//		}
 //		int numColliders = 10;
 //		Collider2D[] colliders = new Collider2D[numColliders];
 //		ContactFilter2D contactFilter = new ContactFilter2D();	
@@ -31,9 +31,15 @@ public class dragTile : MonoBehaviour {
 		transform.position = objPosition;
 	}﻿
 
-	void onMouseUp () {
-//		int colliderCount = TileCollider.OverlapCollider(contactFilter, colliders);
-
+	void OnMouseUp () {
+		// if the length of the array is 4, destroy the thing and turn the grids under the piece to the color of the player piece
+		// if the length of the array is not 4, move the collider dealie somewhere else or delete it
+		if (RunGame.TriggeredBackgroundTiles.Count == 4) {
+			Debug.Log ("Valid move! Great!");
+			Destroy(this);
+		} else {
+			Debug.Log ("Invalid move! Go fuck yourself!");
+		}
 //		Debug.Log("Total number of colliders detected: " + colliderCount);
 	}
 }
