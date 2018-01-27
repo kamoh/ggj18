@@ -54,6 +54,7 @@
      <Compile Include="Assets\draggable.cs" />
      <Compile Include="Assets\Scripts\dragTile.cs" />
      <Compile Include="Assets\Scripts\dragz.cs" />
+     <Compile Include="Assets\Scripts\playTileTrigger.cs" />
      <Compile Include="Assets\Scripts\validMoveDetection.cs" />
  <Reference Include="UnityEngine.UIAutomation">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>

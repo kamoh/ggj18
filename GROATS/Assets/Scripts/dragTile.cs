@@ -4,11 +4,20 @@ using UnityEngine;
 
 public class dragTile : MonoBehaviour {
 
+//	Collider2D TileCollider = gameObject.GetComponent<Collider2D>();
+	public Collider2D collidor;
 	// Use this for initialization
-//	void Start () {
-//		
-//	}
-	
+	void Start () {
+		if (collidor.isTrigger) {
+			Debug.Log("this thing is a trigger");
+		} else if (!collidor.isTrigger) {
+			Debug.Log("this is not a trigger");
+		}
+//		int numColliders = 10;
+//		Collider2D[] colliders = new Collider2D[numColliders];
+//		ContactFilter2D contactFilter = new ContactFilter2D();	
+	}
+
 	// Update is called once per frame
 //	void Update () {
 //		
@@ -21,4 +30,10 @@ public class dragTile : MonoBehaviour {
 	
 		transform.position = objPosition;
 	}﻿
+
+	void onMouseUp () {
+//		int colliderCount = TileCollider.OverlapCollider(contactFilter, colliders);
+
+//		Debug.Log("Total number of colliders detected: " + colliderCount);
+	}
 }

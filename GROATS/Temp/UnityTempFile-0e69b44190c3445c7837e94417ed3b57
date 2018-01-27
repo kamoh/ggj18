@@ -183,6 +183,7 @@
 'Assets/draggable.cs'
 'Assets/Scripts/dragTile.cs'
 'Assets/Scripts/dragz.cs'
+'Assets/Scripts/playTileTrigger.cs'
 'Assets/Scripts/validMoveDetection.cs'
 -r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.Runtime.Serialization.dll'
 -r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.Xml.Linq.dll'
