@@ -5125,6 +5125,30 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 1244407774636592, guid: 36bf176a2e6d74c6f9c2b31a55dc7e7d, type: 2}
+      propertyPath: m_Name
+      value: RedPlayerGameObject
+      objectReference: {fileID: 0}
+    - target: {fileID: 212147719286592720, guid: 36bf176a2e6d74c6f9c2b31a55dc7e7d,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212905281579204634, guid: 36bf176a2e6d74c6f9c2b31a55dc7e7d,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212415328654981840, guid: 36bf176a2e6d74c6f9c2b31a55dc7e7d,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212924562097340504, guid: 36bf176a2e6d74c6f9c2b31a55dc7e7d,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 36bf176a2e6d74c6f9c2b31a55dc7e7d, type: 2}
   m_IsPrefabParent: 0
@@ -7883,7 +7907,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1666586912
 GameObject:
@@ -9227,7 +9251,6 @@ Transform:
   - {fileID: 730852927}
   - {fileID: 325723537}
   - {fileID: 521101232}
-  - {fileID: 768129174}
   m_Father: {fileID: 599842848}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

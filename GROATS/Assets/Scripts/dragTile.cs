@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class dragTile : MonoBehaviour {
 
+//	public RedPlayerGameObject redPlayerCube;
 //	Collider2D TileCollider = gameObject.GetComponent<Collider2D>();
 	public Collider2D collidor;
 	// Use this for initialization
@@ -36,7 +37,11 @@ public class dragTile : MonoBehaviour {
 		// if the length of the array is not 4, move the collider dealie somewhere else or delete it
 		if (RunGame.TriggeredBackgroundTiles.Count == 4) {
 			Debug.Log ("Valid move! Great!");
-			Destroy(this);
+			Debug.Log ("This is " + this);
+
+			foreach (Transform child in transform) {
+				Destroy (child.gameObject);
+			}
 		} else {
 			Debug.Log ("Invalid move! Go fuck yourself!");
 		}
