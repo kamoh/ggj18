@@ -24,5 +24,6 @@ public class dragz : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHan
 		Debug.Log ("OnEndDrag");
 		this.transform.SetParent( parentToReturnTo );
 
-	}	
+	}
+		
 }
