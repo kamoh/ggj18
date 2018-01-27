@@ -5,7 +5,14 @@ using UnityEngine.EventSystems;
 
 public class dragz : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler {
 
+	private validMoveDetection validMoveDetector;
+
 	Transform parentToReturnTo = null;
+
+	// Initialize the move detector script
+	public void Awake() {
+		validMoveDetector = GetComponent<validMoveDetection> ();
+	}
 
 	public void OnBeginDrag(PointerEventData eventData){
 		Debug.Log ("OnBeginDrag");
@@ -24,6 +31,8 @@ public class dragz : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHan
 		Debug.Log ("OnEndDrag");
 		this.transform.SetParent( parentToReturnTo );
 
+		// Call the valid move detector script to see if the game is over or not
+		validMoveDetector.detectValidMoves ();
 	}
 		
 }
