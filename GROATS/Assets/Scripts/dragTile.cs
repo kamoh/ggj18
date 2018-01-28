@@ -81,13 +81,24 @@ public class dragTile : MonoBehaviour {
 				Debug.Log ("BEGIN LOGGING FOR " + element.name);
 
 				// Check for tiles above where it was placed
-				Vector2 coordinates = new Vector2 (element.transform.position.x, element.transform.position.y + 1);
+				Vector2 aboveCoordinates = new Vector2 (element.transform.position.x, element.transform.position.y + 1);
 
 				// Check for tiles to the right of where it was placed
-//				Vector2 coordinates = new Vector2 (element.transform.position.x + 1, element.transform.position.y);
+				Vector2 rightCoordinates = new Vector2 (element.transform.position.x + 1, element.transform.position.y);
 
 				// Check for tiles below where it was placed
-//				Vector2 coordinates = new Vector2 (element.transform.position.x, element.transform.position.y - 1);
+				Vector2 belowCoordinates = new Vector2 (element.transform.position.x, element.transform.position.y - 1);
+
+				// Check for tiles to the left of where it was placed
+				Vector2 leftCoordinates = new Vector2 (element.transform.position.x - 1, element.transform.position.y);
+
+				ArrayList coordinatesToCheck = new ArrayList();
+//				= new Array [aboveCuse ooordinates, rightCoordinates, belowCoordinates, leftCoordinates];
+
+				coordinatesToCheck.Add(aboveCoordinates);
+				coordinatesToCheck.Add(rightCoordinates);
+				coordinatesToCheck.Add(belowCoordinates);
+				coordinatesToCheck.Add(leftCoordinates);
 
 				//				Vector2 size = new Vector2 (element.transform;
 
@@ -100,29 +111,33 @@ public class dragTile : MonoBehaviour {
 
 				Vector2 size = new Vector2 (width, height);
 
-				Collider2D[] result = Physics2D.OverlapBoxAll (coordinates, size, 0);
 
-				foreach (Collider2D foundThing in result) {
-//					Debug.Log ("Result " + foundThing.name);
 
-					if (foundThing.gameObject.tag == "OpenTile") {
-						Debug.Log ("This thing is an open tile: " + foundThing.gameObject);
-						Debug.Log ("This thing's tag is: " + foundThing.gameObject.tag);
-						// temp to get replacement going
-						GameObject spriteDealie = foundThing.transform.GetChild (0).gameObject;
-						if (RunGame.ActivePlayer == "diseasePlayer") {
-							spriteDealie.GetComponent<SpriteRenderer> ().sprite = Resources.Load<Sprite> ("Disease_Tile");
+				foreach (Vector2 directionCheck in coordinatesToCheck) {
+					Collider2D[] result = Physics2D.OverlapBoxAll (directionCheck, size, 0);
+
+					foreach (Collider2D foundThing in result) {
+						//					Debug.Log ("Result " + foundThing.name);
+
+						if (foundThing.gameObject.tag == "OpenTile") {
+							Debug.Log ("This thing is an open tile: " + foundThing.gameObject);
+							Debug.Log ("This thing's tag is: " + foundThing.gameObject.tag);
+							// temp to get replacement going
+							GameObject spriteDealie = foundThing.transform.GetChild (0).gameObject;
+							if (RunGame.ActivePlayer == "diseasePlayer") {
+								spriteDealie.GetComponent<SpriteRenderer> ().sprite = Resources.Load<Sprite> ("Disease_Tile");
+							} else {
+								spriteDealie.GetComponent<SpriteRenderer> ().sprite = Resources.Load<Sprite> ("Cure_Tile");
+							}
 						} else {
-							spriteDealie.GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite> ("Cure_Tile");
+							Debug.Log ("This thing is not a free tile and won't be counted: " + foundThing.gameObject);
+							Debug.Log ("This thing's tag is: " + foundThing.gameObject.tag);
 						}
-					} else {
-						Debug.Log ("This thing is not a free tile and won't be counted: " + foundThing.gameObject);
-						Debug.Log ("This thing's tag is: " + foundThing.gameObject.tag);
+						//					foundThing.GetComponent<SpriteRenderer>
 					}
-					//					foundThing.GetComponent<SpriteRenderer>
 				}
 
-				Debug.Log ("RESULTS FOUND " + result.Length);
+//				Debug.Log ("RESULTS FOUND " + result.Length);
 
 				// check for adjacent tiles to turn to the new color
 				//        element.transform.position.x -
