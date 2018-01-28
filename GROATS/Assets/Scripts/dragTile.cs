@@ -132,8 +132,10 @@ public class dragTile : MonoBehaviour {
 							GameObject spriteDealie = foundThing.transform.GetChild (0).gameObject;
 							if (RunGame.ActivePlayer == "diseasePlayer") {
 								spriteDealie.GetComponent<SpriteRenderer> ().sprite = Resources.Load<Sprite> ("Disease_Tile");
+								foundThing.tag = "DiseaseTile";
 							} else {
 								spriteDealie.GetComponent<SpriteRenderer> ().sprite = Resources.Load<Sprite> ("Cure_Tile");
+								foundThing.tag = "CureTile";
 							}
 						} else {
 							Debug.Log ("This thing is not a free tile and won't be counted: " + foundThing.gameObject);
