@@ -5,6 +5,7 @@ using UnityEngine;
 public class SpawnBluePlayer : MonoBehaviour {
 
 	public static GameObject BluePlayerGameObjectHor;
+	public static GameObject BluePlayerGameObjectVert;
 
 	// Use this for initialization
 	void Start () {
@@ -19,6 +20,7 @@ public class SpawnBluePlayer : MonoBehaviour {
 	public static void Spawn() {
 		//		Instantiate (RedPlayerGameObject);
 		Instantiate(Resources.Load("Prefabs/BluePlayerGameObjectHor"));
+		Instantiate(Resources.Load("Prefabs/BluePlayerGameObjectVert"));
 //		Instantiate(Resources.Load("Prefabs/BluePlayerGameObjectVertical"));
 
 //		Debug.Log("spawn blue player - spawn called");

@@ -108,7 +108,7 @@ GameObject:
   - component: {fileID: 50880771275562828}
   - component: {fileID: 61774491430403488}
   m_Layer: 0
-  m_Name: BluePlayerGameObject
+  m_Name: BluePlayerGameObjectOld
   m_TagString: CurePlayer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

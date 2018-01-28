@@ -126,7 +126,7 @@ GameObject:
   - component: {fileID: 49225489}
   - component: {fileID: 49225488}
   m_Layer: 10
-  m_Name: Quad_A4 (18)
+  m_Name: Quad_C5
   m_TagString: OpenTile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -139,12 +139,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 49225486}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.9999995, y: -0.6000004, z: 0}
+  m_LocalPosition: {x: -0.6, y: 1.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1878480230}
   m_Father: {fileID: 1956221287}
-  m_RootOrder: 33
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &49225488
 MonoBehaviour:
@@ -309,7 +309,7 @@ GameObject:
   - component: {fileID: 71352069}
   - component: {fileID: 71352068}
   m_Layer: 10
-  m_Name: Quad_A4 (14)
+  m_Name: Quad_A5
   m_TagString: OpenTile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -322,12 +322,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 71352066}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.399999, y: -0.6000004, z: 0}
+  m_LocalPosition: {x: -0.6, y: 4.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1626783408}
   m_Father: {fileID: 1956221287}
-  m_RootOrder: 29
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &71352068
 MonoBehaviour:
@@ -437,7 +437,7 @@ Transform:
   m_Children:
   - {fileID: 608979434}
   m_Father: {fileID: 1956221287}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &97950249
 MonoBehaviour:
@@ -547,7 +547,7 @@ Transform:
   m_Children:
   - {fileID: 763317556}
   m_Father: {fileID: 1956221287}
-  m_RootOrder: 15
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &98983303
 MonoBehaviour:
@@ -909,7 +909,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &228124887
 MonoBehaviour:
@@ -935,7 +935,7 @@ GameObject:
   - component: {fileID: 229457903}
   - component: {fileID: 229457902}
   m_Layer: 10
-  m_Name: Quad_A4 (16)
+  m_Name: Quad_A6
   m_TagString: OpenTile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -948,12 +948,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 229457900}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.399999, y: -1.8000002, z: 0}
+  m_LocalPosition: {x: 0.6, y: 4.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2009094518}
   m_Father: {fileID: 1956221287}
-  m_RootOrder: 31
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &229457902
 MonoBehaviour:
@@ -1277,7 +1277,7 @@ Transform:
   m_Children:
   - {fileID: 1243065915}
   m_Father: {fileID: 1956221287}
-  m_RootOrder: 8
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &325723538
 MonoBehaviour:
@@ -1369,7 +1369,7 @@ GameObject:
   - component: {fileID: 352867981}
   - component: {fileID: 352867980}
   m_Layer: 10
-  m_Name: Quad_A4 (15)
+  m_Name: Quad_B6
   m_TagString: OpenTile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1382,12 +1382,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 352867978}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.2, y: -1.8, z: 0}
+  m_LocalPosition: {x: 0.6, y: 3.0000002, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2085174780}
   m_Father: {fileID: 1956221287}
-  m_RootOrder: 30
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &352867980
 MonoBehaviour:
@@ -1613,7 +1613,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4929833729681324, guid: d2144ac242fee4ae6bd0b2e1aa009caf, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d2144ac242fee4ae6bd0b2e1aa009caf, type: 2}
@@ -1649,7 +1649,7 @@ Transform:
   m_Children:
   - {fileID: 1924966082}
   m_Father: {fileID: 1956221287}
-  m_RootOrder: 10
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &473440003
 MonoBehaviour:
@@ -1905,7 +1905,7 @@ Transform:
   m_Children:
   - {fileID: 234891261}
   m_Father: {fileID: 1956221287}
-  m_RootOrder: 9
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &521101233
 MonoBehaviour:
@@ -2144,7 +2144,7 @@ RectTransform:
   m_Children:
   - {fileID: 285381510}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2164,7 +2164,7 @@ GameObject:
   - component: {fileID: 583625783}
   - component: {fileID: 583625782}
   m_Layer: 10
-  m_Name: Quad_A4 (17)
+  m_Name: Quad_D5
   m_TagString: OpenTile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2177,12 +2177,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 583625780}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.7999997, y: -0.6000004, z: 0}
+  m_LocalPosition: {x: -0.6, y: 0.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1881155237}
   m_Father: {fileID: 1956221287}
-  m_RootOrder: 32
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &583625782
 MonoBehaviour:
@@ -2302,7 +2302,7 @@ Transform:
   m_Children:
   - {fileID: 1956221287}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!19719996 &599842849
 TilemapCollider2D:
@@ -2531,7 +2531,7 @@ Transform:
   m_Children:
   - {fileID: 287440498}
   m_Father: {fileID: 1956221287}
-  m_RootOrder: 11
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &639407015
 MonoBehaviour:
@@ -2636,7 +2636,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &651861235
 GameObject:
@@ -2724,7 +2724,7 @@ GameObject:
   - component: {fileID: 668073839}
   - component: {fileID: 668073838}
   m_Layer: 10
-  m_Name: Quad_A4 (3)
+  m_Name: Quad_F2
   m_TagString: OpenTile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2737,12 +2737,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 668073836}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.5999999, y: 3, z: 0}
+  m_LocalPosition: {x: -4.2, y: -1.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1541408136}
   m_Father: {fileID: 1956221287}
-  m_RootOrder: 18
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &668073838
 MonoBehaviour:
@@ -2834,7 +2834,7 @@ GameObject:
   - component: {fileID: 686616743}
   - component: {fileID: 686616742}
   m_Layer: 10
-  m_Name: Quad_A4 (4)
+  m_Name: Quad_E2
   m_TagString: OpenTile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2847,12 +2847,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 686616740}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.5999999, y: 3, z: 0}
+  m_LocalPosition: {x: -4.2, y: -0.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2069159173}
   m_Father: {fileID: 1956221287}
-  m_RootOrder: 19
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &686616742
 MonoBehaviour:
@@ -3218,7 +3218,7 @@ Transform:
   m_Children:
   - {fileID: 1323977710}
   m_Father: {fileID: 1956221287}
-  m_RootOrder: 12
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &830955247
 MonoBehaviour:
@@ -3456,7 +3456,7 @@ GameObject:
   - component: {fileID: 844597343}
   - component: {fileID: 844597342}
   m_Layer: 10
-  m_Name: Quad_A4 (12)
+  m_Name: Quad_E6
   m_TagString: OpenTile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3469,12 +3469,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 844597340}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.5999999, y: -1.8000002, z: 0}
+  m_LocalPosition: {x: 0.6, y: -0.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 862882205}
   m_Father: {fileID: 1956221287}
-  m_RootOrder: 27
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &844597342
 MonoBehaviour:
@@ -3652,12 +3652,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 890641485}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.6, y: 4.2, z: 0}
+  m_LocalPosition: {x: -5.4, y: -1.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2058398320}
   m_Father: {fileID: 1956221287}
-  m_RootOrder: 17
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &890641487
 MonoBehaviour:
@@ -3859,7 +3859,7 @@ GameObject:
   - component: {fileID: 953392936}
   - component: {fileID: 953392935}
   m_Layer: 10
-  m_Name: Quad_A4 (11)
+  m_Name: Quad_F6
   m_TagString: OpenTile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3872,12 +3872,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 953392933}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.5999999, y: -1.8, z: 0}
+  m_LocalPosition: {x: 0.6, y: -1.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 483292623}
   m_Father: {fileID: 1956221287}
-  m_RootOrder: 26
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &953392935
 MonoBehaviour:
@@ -3983,7 +3983,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &982336793
 MonoBehaviour:
@@ -4009,7 +4009,7 @@ GameObject:
   - component: {fileID: 984368291}
   - component: {fileID: 984368290}
   m_Layer: 10
-  m_Name: Quad_A4 (9)
+  m_Name: Quad_F5
   m_TagString: OpenTile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4022,12 +4022,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 984368288}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.5999999, y: -0.6, z: 0}
+  m_LocalPosition: {x: -0.6, y: -1.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 513985255}
   m_Father: {fileID: 1956221287}
-  m_RootOrder: 24
+  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &984368290
 MonoBehaviour:
@@ -4119,7 +4119,7 @@ GameObject:
   - component: {fileID: 1071145310}
   - component: {fileID: 1071145309}
   m_Layer: 10
-  m_Name: Quad_A4 (7)
+  m_Name: Quad_F4
   m_TagString: OpenTile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4132,12 +4132,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1071145307}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.5999999, y: 0.6000004, z: 0}
+  m_LocalPosition: {x: -1.8, y: -1.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1737072719}
   m_Father: {fileID: 1956221287}
-  m_RootOrder: 22
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1071145309
 MonoBehaviour:
@@ -4229,7 +4229,7 @@ GameObject:
   - component: {fileID: 1072194734}
   - component: {fileID: 1072194733}
   m_Layer: 10
-  m_Name: Quad_A4 (5)
+  m_Name: Quad_F3
   m_TagString: OpenTile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4242,12 +4242,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1072194731}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.5999999, y: 1.8, z: 0}
+  m_LocalPosition: {x: -3, y: -1.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1128666914}
   m_Father: {fileID: 1956221287}
-  m_RootOrder: 20
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1072194733
 MonoBehaviour:
@@ -4475,7 +4475,7 @@ Transform:
   m_Children:
   - {fileID: 2018405018}
   m_Father: {fileID: 1956221287}
-  m_RootOrder: 14
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1180706141
 MonoBehaviour:
@@ -4580,12 +4580,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1183011702}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.6, y: 4.2, z: 0}
+  m_LocalPosition: {x: -5.4, y: -0.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1854012246}
   m_Father: {fileID: 1956221287}
-  m_RootOrder: 16
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1183011704
 MonoBehaviour:
@@ -4695,7 +4695,7 @@ Transform:
   m_Children:
   - {fileID: 163691736}
   m_Father: {fileID: 1956221287}
-  m_RootOrder: 13
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1191507623
 MonoBehaviour:
@@ -4933,7 +4933,7 @@ GameObject:
   - component: {fileID: 1294211642}
   - component: {fileID: 1294211641}
   m_Layer: 10
-  m_Name: Quad_A4 (20)
+  m_Name: Quad_C6
   m_TagString: OpenTile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4946,12 +4946,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1294211639}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.9999995, y: -1.8000002, z: 0}
+  m_LocalPosition: {x: 0.6, y: 1.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 840026974}
   m_Father: {fileID: 1956221287}
-  m_RootOrder: 35
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1294211641
 MonoBehaviour:
@@ -5189,7 +5189,7 @@ GameObject:
   - component: {fileID: 1392523134}
   - component: {fileID: 1392523133}
   m_Layer: 10
-  m_Name: Quad_A4 (19)
+  m_Name: Quad_D6
   m_TagString: OpenTile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5202,12 +5202,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1392523131}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.8, y: -1.8, z: 0}
+  m_LocalPosition: {x: 0.6, y: 0.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 651861236}
   m_Father: {fileID: 1956221287}
-  m_RootOrder: 34
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1392523133
 MonoBehaviour:
@@ -5449,48 +5449,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
---- !u!1001 &1496885009
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4401858496036402, guid: fa3247778abad471e80fe296857af7e0, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -6.09
-      objectReference: {fileID: 0}
-    - target: {fileID: 4401858496036402, guid: fa3247778abad471e80fe296857af7e0, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 4.25
-      objectReference: {fileID: 0}
-    - target: {fileID: 4401858496036402, guid: fa3247778abad471e80fe296857af7e0, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0.40999985
-      objectReference: {fileID: 0}
-    - target: {fileID: 4401858496036402, guid: fa3247778abad471e80fe296857af7e0, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4401858496036402, guid: fa3247778abad471e80fe296857af7e0, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4401858496036402, guid: fa3247778abad471e80fe296857af7e0, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: -0.7081612
-      objectReference: {fileID: 0}
-    - target: {fileID: 4401858496036402, guid: fa3247778abad471e80fe296857af7e0, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 0.7060508
-      objectReference: {fileID: 0}
-    - target: {fileID: 4401858496036402, guid: fa3247778abad471e80fe296857af7e0, type: 2}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: fa3247778abad471e80fe296857af7e0, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1 &1510188939
 GameObject:
   m_ObjectHideFlags: 0
@@ -5522,7 +5480,7 @@ Transform:
   m_Children:
   - {fileID: 539106355}
   m_Father: {fileID: 1956221287}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1510188941
 MonoBehaviour:
@@ -5785,7 +5743,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1723351074
 GameObject:
@@ -5800,7 +5758,7 @@ GameObject:
   - component: {fileID: 1723351077}
   - component: {fileID: 1723351076}
   m_Layer: 10
-  m_Name: Quad_A4 (13)
+  m_Name: Quad_B5
   m_TagString: OpenTile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5813,12 +5771,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1723351074}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.1999993, y: -0.6000004, z: 0}
+  m_LocalPosition: {x: -0.6, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 835972245}
   m_Father: {fileID: 1956221287}
-  m_RootOrder: 28
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1723351076
 MonoBehaviour:
@@ -5983,7 +5941,7 @@ GameObject:
   - component: {fileID: 1776767366}
   - component: {fileID: 1776767365}
   m_Layer: 10
-  m_Name: Quad_A4 (6)
+  m_Name: Quad_E3
   m_TagString: OpenTile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5996,12 +5954,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1776767363}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.5999999, y: 1.8000002, z: 0}
+  m_LocalPosition: {x: -3, y: -0.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 600635013}
   m_Father: {fileID: 1956221287}
-  m_RootOrder: 21
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1776767365
 MonoBehaviour:
@@ -6111,7 +6069,7 @@ Transform:
   m_Children:
   - {fileID: 764231518}
   m_Father: {fileID: 1956221287}
-  m_RootOrder: 7
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1778421068
 MonoBehaviour:
@@ -6276,7 +6234,7 @@ GameObject:
   - component: {fileID: 1878307503}
   - component: {fileID: 1878307502}
   m_Layer: 10
-  m_Name: Quad_A4 (8)
+  m_Name: Quad_E4
   m_TagString: OpenTile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6289,12 +6247,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1878307500}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.5999999, y: 0.6, z: 0}
+  m_LocalPosition: {x: -1.8, y: -0.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1934485677}
   m_Father: {fileID: 1956221287}
-  m_RootOrder: 23
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1878307502
 MonoBehaviour:
@@ -6396,7 +6354,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1878480229}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 49225487}
@@ -6532,7 +6490,7 @@ GameObject:
   - component: {fileID: 1907208475}
   - component: {fileID: 1907208474}
   m_Layer: 10
-  m_Name: Quad_A4 (10)
+  m_Name: Quad_E5
   m_TagString: OpenTile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6545,12 +6503,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1907208472}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.5999999, y: -0.6000004, z: 0}
+  m_LocalPosition: {x: -0.6, y: -0.6000004, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2134295499}
   m_Father: {fileID: 1956221287}
-  m_RootOrder: 25
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1907208474
 MonoBehaviour:
@@ -6880,38 +6838,38 @@ Transform:
   - {fileID: 730852927}
   - {fileID: 373021109}
   - {fileID: 915341467}
+  - {fileID: 71352067}
+  - {fileID: 229457901}
   - {fileID: 1510188940}
   - {fileID: 97950248}
   - {fileID: 1983037030}
   - {fileID: 1778421067}
+  - {fileID: 1723351075}
+  - {fileID: 352867979}
   - {fileID: 325723537}
   - {fileID: 521101232}
   - {fileID: 473440002}
   - {fileID: 639407014}
+  - {fileID: 49225487}
+  - {fileID: 1294211640}
   - {fileID: 830955246}
   - {fileID: 1191507622}
   - {fileID: 1180706140}
   - {fileID: 98983302}
+  - {fileID: 583625781}
+  - {fileID: 1392523132}
   - {fileID: 1183011703}
+  - {fileID: 686616741}
+  - {fileID: 1776767364}
+  - {fileID: 1878307501}
+  - {fileID: 1907208473}
+  - {fileID: 844597341}
   - {fileID: 890641486}
   - {fileID: 668073837}
-  - {fileID: 686616741}
   - {fileID: 1072194732}
-  - {fileID: 1776767364}
   - {fileID: 1071145308}
-  - {fileID: 1878307501}
   - {fileID: 984368289}
-  - {fileID: 1907208473}
   - {fileID: 953392934}
-  - {fileID: 844597341}
-  - {fileID: 1723351075}
-  - {fileID: 71352067}
-  - {fileID: 352867979}
-  - {fileID: 229457901}
-  - {fileID: 583625781}
-  - {fileID: 49225487}
-  - {fileID: 1392523132}
-  - {fileID: 1294211640}
   m_Father: {fileID: 599842848}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7035,7 +6993,7 @@ Transform:
   m_Children:
   - {fileID: 62160236}
   m_Father: {fileID: 1956221287}
-  m_RootOrder: 6
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1983037031
 MonoBehaviour:

@@ -111,7 +111,13 @@ public class dragTile : MonoBehaviour {
 
 				Vector2 size = new Vector2 (width, height);
 
+				string tagToCheck = "";
 
+				if (RunGame.ActivePlayer == "diseasePlayer") {
+					tagToCheck = "CureTile";
+				} else {
+					tagToCheck = "DiseaseTile";
+				}
 
 				foreach (Vector2 directionCheck in coordinatesToCheck) {
 					Collider2D[] result = Physics2D.OverlapBoxAll (directionCheck, size, 0);
@@ -119,7 +125,7 @@ public class dragTile : MonoBehaviour {
 					foreach (Collider2D foundThing in result) {
 						//					Debug.Log ("Result " + foundThing.name);
 
-						if (foundThing.gameObject.tag == "OpenTile") {
+						if (foundThing.gameObject.tag == tagToCheck) {
 							Debug.Log ("This thing is an open tile: " + foundThing.gameObject);
 							Debug.Log ("This thing's tag is: " + foundThing.gameObject.tag);
 							// temp to get replacement going
@@ -163,7 +169,18 @@ public class dragTile : MonoBehaviour {
 
 			// When the move is done, destroy the piece that was placed by the player
 			foreach (Transform child in transform) {
-				Destroy (child.gameObject);
+				if (RunGame.ActivePlayer == "curePlayer") {
+					Debug.Log ("Child's parent name is " + child.parent.name);
+
+					GameObject[] bluePlayerObjects = GameObject.FindGameObjectsWithTag ("CurePlayer");
+
+					foreach (GameObject bluePlayer in bluePlayerObjects) {
+						Destroy (bluePlayer);
+					}
+				} else {
+					Destroy (child.gameObject);
+				}
+
 			}
 
 			// Reset the array of triggered tiles
