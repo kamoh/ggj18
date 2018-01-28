@@ -4,6 +4,8 @@ using UnityEngine;
 using System;
 
 public class dragTile : MonoBehaviour {
+	
+	public SpriteRenderer sr;
 
 //	public RedPlayerGameObject redPlayerCube;
 //	Collider2D TileCollider = gameObject.GetComponent<Collider2D>();
@@ -34,6 +36,8 @@ public class dragTile : MonoBehaviour {
 	}﻿
 
 	void OnMouseUp () {
+//		GameObject tileGridBeingClaimed;
+
 		// if the length of the array is 4, destroy the thing and turn the grids under the piece to the color of the player piece
 		// if the length of the array is not 4, move the collider dealie somewhere else or delete it
 		if (RunGame.TriggeredBackgroundTiles.Count == 4) {
@@ -45,19 +49,54 @@ public class dragTile : MonoBehaviour {
 //				.ConvertAll(i => i.ToString())
 //				.ToArray()));
 
-			foreach(String element in RunGame.TriggeredBackgroundTiles)
+			// Get each valid tile that is being affected so we can change them
+			foreach(GameObject element in RunGame.TriggeredBackgroundTiles)
 			{
-				Debug.Log( element );
+				//tileGridBeingClaimed = GetComponent<element> ();
+//				Debug.Log( element );
+//				Debug.Log( element.GetComponent<Renderer>().material);
+
+//				element.GetComponentInChildren (typeof(Texture)) as ChildTexture;
+
+//				GameObject originalGameObject = GameObject.Find("MainObj");
+				GameObject spriteMaybe = element.transform.GetChild(0).gameObject;
+//				Debug.Log ("Disease tile is this " + Disease_Tile);
+				Debug.Log("What is this thing " + spriteMaybe);
+				sr = spriteMaybe.GetComponent<SpriteRenderer>();
+				Debug.Log ("Current sprite is " + sr.sprite);
+
+				if (this.name == "RedPlayerGameObject") {
+					sr.sprite = Resources.Load<Sprite>("Disease_Tile");
+					element.tag = "DiseaseTile";
+				} else {
+					sr.sprite = Resources.Load<Sprite>("Cure_Tile");
+					element.tag = "CureTile";
+				}
+
+//				sr.sprite = Disease_Tile;
+				Debug.Log ("who is the current player? " + this.name);
+				Debug.Log ("New sprite is " + sr.sprite);
+				Debug.Log ("Tile acted upon is now tagged " + element.tag);
+
+//				element.GetComponent<Renderer>().material.mainTexture = Disease_Tile;
+//				element.GetComponent<Renderer>().material = Disease_Tile;
+
+//				element.GetComponent<Sprite>() = Disease_Tile;
+//				Debug.Log (tileGridBeingClaimed);
 			}
 
-			// get each valid tile that is being affected
 			// get the color/team of the player that is placing the new piece
+			// use GetComponent or something 
+			// GetComponent<RunGame.TriggeredBackgroundTiles>();
 			// in a loop, change the image of each tile to the new one
 
 			// When the move is done, destroy the piece that was placed by the player
 			foreach (Transform child in transform) {
 				Destroy (child.gameObject);
 			}
+
+			// Reset the array of triggered tiles
+			RunGame.TriggeredBackgroundTiles = new ArrayList();
 		} else {
 			Debug.Log ("Invalid move! Go fuck yourself!");
 		}

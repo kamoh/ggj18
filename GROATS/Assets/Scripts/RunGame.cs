@@ -12,7 +12,9 @@ public class RunGame : MonoBehaviour {
 		Debug.Log("Game start");
 		Debug.Log ("Triggered background tiles: " + TriggeredBackgroundTiles.Count);
 	}
-	
+
+	// Have something that tells you which player is going in a given time
+
 	// Update is called once per frame
 	void Update () {
 		

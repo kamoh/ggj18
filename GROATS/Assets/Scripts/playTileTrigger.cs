@@ -16,14 +16,18 @@ public class playTileTrigger : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D other) {
 		// Destroy(other.gameObject);
-		RunGame.TriggeredBackgroundTiles.Add(this.name);
-		Debug.Log("GAME OBJECT " + this.name + " HAS BEEN TRIGGERED BY " + other.name);
-		Debug.Log("Current # of triggered tiles: " + RunGame.TriggeredBackgroundTiles.Count);
+		Debug.Log("THIS THING IS A " + this.gameObject);
+		Debug.Log("THIS THING'S TAG IS " + this.gameObject.tag);
+		if (this.gameObject.tag == "OpenTile") {
+			RunGame.TriggeredBackgroundTiles.Add(this.gameObject);
+			Debug.Log("GAME OBJECT " + this.name + " HAS BEEN TRIGGERED BY " + other.name);
+			Debug.Log("Current # of triggered tiles: " + RunGame.TriggeredBackgroundTiles.Count);
+		}
 	}
 
 	void OnTriggerExit2D(Collider2D other) {
 		// Destroy(other.gameObject);
-		RunGame.TriggeredBackgroundTiles.Remove(this.name);
+		RunGame.TriggeredBackgroundTiles.Remove(this.gameObject);
 		Debug.Log("GAME OBJECT " + this.name + " HAS BEEN TRIGGERED BY " + other.name);
 		Debug.Log("Current # of triggered tiles: " + RunGame.TriggeredBackgroundTiles.Count);
 	}
