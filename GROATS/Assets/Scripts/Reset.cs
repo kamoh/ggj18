@@ -4,9 +4,11 @@ using System.Collections;
      
 public class Reset : MonoBehaviour {
      
+
     public void RestartGame() 
     	{
-             SceneManager.LoadScene(SceneManager.GetActiveScene().name); 
+			Debug.Log ("reset clicked");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name); 
              // loads current scene
         }
      
