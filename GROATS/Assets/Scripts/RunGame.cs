@@ -7,8 +7,11 @@ public class RunGame : MonoBehaviour {
 //	public GameObject[] triggeredBackgroundTiles;
 	public static ArrayList TriggeredBackgroundTiles = new ArrayList();
 	public static string ActivePlayer;
-	public GameObject RedPlayerGameObjectFancy;
-	public GameObject RedPlayerSpawn;
+	public static GameObject RedPlayerGameObject;
+	public static GameObject RedPlayerSpawn;
+//	public static GameObject BluePlayerGameObjectHorizontal;
+//	public static GameObject BluePlayerGameObjectVertical;
+//	public static GameObject BluePlayerSpawn;
 
 	// Use this for initialization
 	void Start () {
@@ -23,11 +26,19 @@ public class RunGame : MonoBehaviour {
 		TakeTurn ();
 	}
 
-	void TakeTurn () {
+	public static void TakeTurn () {
 		Debug.Log ("NOW IN TAKE TURN WITH PLAYER OF " + ActivePlayer);
-		Instantiate (RedPlayerGameObjectFancy, new Vector2 (RedPlayerSpawn.transform.position.x,
-			                                           RedPlayerSpawn.transform.position.y),
-			                                           Quaternion.identity);
+		if (ActivePlayer == "diseasePlayer") {
+			Instantiate (RunGame.RedPlayerGameObject, new Vector2 (RunGame.RedPlayerSpawn.transform.position.x, RunGame.RedPlayerSpawn.transform.position.y), Quaternion.identity);
+		} else {
+//			Instantiate (BluePlayerGameObjectHorizontal, new Vector2 (BluePlayerSpawn.transform.position.x,
+//				BluePlayerSpawn.transform.position.y),
+//				Quaternion.identity);
+//			Instantiate (BluePlayerGameObjectVertical, new Vector2 (BluePlayerSpawn.transform.position.x,
+//				BluePlayerSpawn.transform.position.y),
+//				Quaternion.identity);
+		}
+
 	}
 
 	public static void ToggleActivePlayer() {
@@ -37,6 +48,8 @@ public class RunGame : MonoBehaviour {
 			ActivePlayer = "diseasePlayer";
 		}
 		Debug.Log ("New active player is " + ActivePlayer);
+
+//		TakeTurn ();
 	}
 
 	// Have something that tells you which player is going in a given time

@@ -64,8 +64,8 @@ public class dragTile : MonoBehaviour {
 				Debug.Log("What is this thing " + spriteMaybe);
 				sr = spriteMaybe.GetComponent<SpriteRenderer>();
 				Debug.Log ("Current sprite is " + sr.sprite);
-
-				if (this.name == "RedPlayerGameObject") {
+				Debug.Log ("THIS THINGS TAG IS " + this.tag);
+				if (this.tag == "DiseasePlayer") {
 					sr.sprite = Resources.Load<Sprite>("Disease_Tile");
 					element.tag = "DiseaseTile";
 				} else {
@@ -98,7 +98,7 @@ public class dragTile : MonoBehaviour {
 			// Reset the array of triggered tiles
 			RunGame.TriggeredBackgroundTiles = new ArrayList();
 
-			RunGame.ToggleActivePlayer ();
+//			RunGame.ToggleActivePlayer ();
 
 		} else {
 			Debug.Log ("Invalid move! Go fuck yourself!");
