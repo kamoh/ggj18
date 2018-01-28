@@ -108,6 +108,13 @@ public class dragTile : MonoBehaviour {
 					if (foundThing.gameObject.tag == "OpenTile") {
 						Debug.Log ("This thing is an open tile: " + foundThing.gameObject);
 						Debug.Log ("This thing's tag is: " + foundThing.gameObject.tag);
+						// temp to get replacement going
+						GameObject spriteDealie = foundThing.transform.GetChild (0).gameObject;
+						if (RunGame.ActivePlayer == "diseasePlayer") {
+							spriteDealie.GetComponent<SpriteRenderer> ().sprite = Resources.Load<Sprite> ("Disease_Tile");
+						} else {
+							spriteDealie.GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite> ("Cure_Tile");
+						}
 					} else {
 						Debug.Log ("This thing is not a free tile and won't be counted: " + foundThing.gameObject);
 						Debug.Log ("This thing's tag is: " + foundThing.gameObject.tag);
