@@ -9,7 +9,7 @@ public class dragTile : MonoBehaviour {
 
 //	public RedPlayerGameObject redPlayerCube;
 //	Collider2D TileCollider = gameObject.GetComponent<Collider2D>();
-	public Collider2D collidor;
+//	public Collider2D collidor;
 	// Use this for initialization
 	void Start () {
 //		if (collidor.isTrigger) {
@@ -97,6 +97,9 @@ public class dragTile : MonoBehaviour {
 
 			// Reset the array of triggered tiles
 			RunGame.TriggeredBackgroundTiles = new ArrayList();
+
+			RunGame.ToggleActivePlayer ();
+
 		} else {
 			Debug.Log ("Invalid move! Go fuck yourself!");
 		}
