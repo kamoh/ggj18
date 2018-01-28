@@ -173,7 +173,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1119700783120352}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.55, y: 1.38, z: 17.74}
+  m_LocalPosition: {x: 0, y: -0.8, z: 17.74}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4326902320436460}
@@ -187,7 +187,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1191156106155270}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.55, y: 4.6, z: 17.74}
+  m_LocalPosition: {x: 0, y: 0.4, z: 17.74}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4374439818826030}
@@ -201,7 +201,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1268548369011346}
   m_LocalRotation: {x: -0.08715525, y: 0.0034773028, z: -0.0003042247, w: 0.99618864}
-  m_LocalPosition: {x: -0.13, y: -3.15, z: -17.84}
+  m_LocalPosition: {x: 0, y: 0, z: -17.84}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4213402672039194}
@@ -214,7 +214,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1754862681150956}
   m_LocalRotation: {x: -0.08715525, y: 0.0034773028, z: -0.0003042247, w: 0.99618864}
-  m_LocalPosition: {x: -0.13, y: -3.1, z: -17.64}
+  m_LocalPosition: {x: 0, y: 0, z: -17.64}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4313044428644260}
@@ -226,8 +226,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1625898484013888}
-  m_LocalRotation: {x: 0.059032533, y: -0.06421285, z: -0.7056967, w: 0.7031245}
-  m_LocalPosition: {x: -9.933771, y: 15.52907, z: 0.40999985}
+  m_LocalRotation: {x: 0, y: 0, z: -0.7081612, w: 0.7060508}
+  m_LocalPosition: {x: -10, y: 7, z: 0.40999985}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4796486771483744}
@@ -236,7 +236,7 @@ Transform:
   - {fileID: 4715361565093582}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -0.43600002, y: -9.999001, z: -90.171005}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90.171005}
 --- !u!4 &4412554912830664
 Transform:
   m_ObjectHideFlags: 1
@@ -244,7 +244,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1093171276465422}
   m_LocalRotation: {x: -0.08715525, y: 0.0034773028, z: -0.0003042247, w: 0.99618864}
-  m_LocalPosition: {x: -0.13, y: -3.15, z: -17.838}
+  m_LocalPosition: {x: 0, y: 0, z: -17.838}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4796486771483744}
@@ -257,7 +257,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1778658145005984}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.55, y: 2.38, z: 17.74}
+  m_LocalPosition: {x: 0, y: 1.6, z: 17.74}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4951395117550766}
@@ -271,7 +271,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1642144001376846}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.55, y: 3.49, z: 17.74}
+  m_LocalPosition: {x: 0, y: -2, z: 17.74}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4412554912830664}
@@ -285,7 +285,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1185239788693042}
   m_LocalRotation: {x: -0.08715525, y: 0.0034773028, z: -0.0003042247, w: 0.99618864}
-  m_LocalPosition: {x: -0.13, y: -3.1, z: -17.64}
+  m_LocalPosition: {x: 0, y: 0, z: -17.64}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4715361565093582}
@@ -494,7 +494,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.62784916, y: -0.24970335}
+  m_Offset: {x: -0.011989139, y: -0.23928642}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -505,7 +505,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.2333871, y: 4.1402445}
+  m_Size: {x: 0.23709191, y: 3.6616716}
   m_EdgeRadius: 0
 --- !u!64 &64227868961031514
 MeshCollider:

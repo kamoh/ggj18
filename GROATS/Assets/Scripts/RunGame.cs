@@ -15,19 +15,19 @@ public class RunGame : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		Debug.Log("Game start");
-		Debug.Log ("Triggered background tiles: " + TriggeredBackgroundTiles.Count);
+//		Debug.Log("Game start");
+//		Debug.Log ("Triggered background tiles: " + TriggeredBackgroundTiles.Count);
 		ActivePlayer = "diseasePlayer";
 		StartGame ();
 	}
 
 	void StartGame() {
-		Debug.Log("Current player is " + ActivePlayer);
+//		Debug.Log("Current player is " + ActivePlayer);
 		TakeTurn ();
 	}
 
 	public static void TakeTurn () {
-		Debug.Log ("NOW IN TAKE TURN WITH PLAYER OF " + ActivePlayer);
+//		Debug.Log ("NOW IN TAKE TURN WITH PLAYER OF " + ActivePlayer);
 		if (ActivePlayer == "diseasePlayer") {
 			SpawnRedPlayer.Spawn ();
 //			Instantiate (RunGame.RedPlayerGameObject, new Vector2 (RunGame.RedPlayerSpawn.transform.position.x, RunGame.RedPlayerSpawn.transform.position.y), Quaternion.identity);

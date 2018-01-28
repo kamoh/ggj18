@@ -16,7 +16,7 @@ public class validMoveDetection : MonoBehaviour {
 	// }
 
 	public void detectValidMoves() {
-		Debug.Log ("log from validMoveDetection#detectValidMoves");
+//		Debug.Log ("log from validMoveDetection#detectValidMoves");
 	}
 
 }
