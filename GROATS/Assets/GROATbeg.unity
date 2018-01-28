@@ -478,11 +478,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7c37130b8ef1a4ec38245c4be0fa487e, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &96764089 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1244407774636592, guid: 36bf176a2e6d74c6f9c2b31a55dc7e7d,
-    type: 2}
-  m_PrefabInternal: {fileID: 1066533660}
 --- !u!1 &97950247
 GameObject:
   m_ObjectHideFlags: 0
@@ -1069,6 +1064,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 228124886}
+  - component: {fileID: 228124887}
   m_Layer: 0
   m_Name: RedPlayerSpawn
   m_TagString: Untagged
@@ -1089,6 +1085,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &228124887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 228124885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4afd38fb4ae764c93bc85953ca595a5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &234891260
 GameObject:
   m_ObjectHideFlags: 0
@@ -2968,6 +2975,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 982336792}
+  - component: {fileID: 982336793}
   m_Layer: 0
   m_Name: BluePlayerSpawn
   m_TagString: Untagged
@@ -2988,6 +2996,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &982336793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 982336791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ace4db2e212e64811906b83408c41824, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1066533660
 Prefab:
   m_ObjectHideFlags: 0
@@ -4068,11 +4087,6 @@ MonoBehaviour:
   m_Spacing: {x: 0, y: 0}
   m_Constraint: 0
   m_ConstraintCount: 2
---- !u!1 &1400995032 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1625898484013888, guid: b2f6aa2acfd9548a182d848e4b7cb84a,
-    type: 2}
-  m_PrefabInternal: {fileID: 385651025}
 --- !u!1 &1421184496
 GameObject:
   m_ObjectHideFlags: 0
@@ -4552,11 +4566,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1571136662}
---- !u!1 &1642090726 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1333488622120318, guid: d2144ac242fee4ae6bd0b2e1aa009caf,
-    type: 2}
-  m_PrefabInternal: {fileID: 1696116575}
 --- !u!1 &1645887015
 GameObject:
   m_ObjectHideFlags: 0
@@ -4584,11 +4593,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2def70a9af2184b049f92c62f8785438, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RedPlayerGameObject: {fileID: 1642090726}
-  RedPlayerSpawn: {fileID: 228124885}
-  BluePlayerGameObjectHorizontal: {fileID: 1400995032}
-  BluePlayerGameObjectVertical: {fileID: 96764089}
-  BluePlayerSpawn: {fileID: 982336791}
 --- !u!4 &1645887017
 Transform:
   m_ObjectHideFlags: 0
@@ -4611,11 +4615,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4929833729681324, guid: d2144ac242fee4ae6bd0b2e1aa009caf, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -24.9
+      value: -25.67
       objectReference: {fileID: 0}
     - target: {fileID: 4929833729681324, guid: d2144ac242fee4ae6bd0b2e1aa009caf, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 11.52
+      value: 15.26
       objectReference: {fileID: 0}
     - target: {fileID: 4929833729681324, guid: d2144ac242fee4ae6bd0b2e1aa009caf, type: 2}
       propertyPath: m_LocalPosition.z

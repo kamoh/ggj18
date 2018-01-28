@@ -98,7 +98,7 @@ public class dragTile : MonoBehaviour {
 			// Reset the array of triggered tiles
 			RunGame.TriggeredBackgroundTiles = new ArrayList();
 
-//			RunGame.ToggleActivePlayer ();
+			RunGame.ToggleActivePlayer ();
 
 		} else {
 			Debug.Log ("Invalid move! Go fuck yourself!");

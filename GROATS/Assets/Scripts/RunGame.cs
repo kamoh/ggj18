@@ -29,7 +29,8 @@ public class RunGame : MonoBehaviour {
 	public static void TakeTurn () {
 		Debug.Log ("NOW IN TAKE TURN WITH PLAYER OF " + ActivePlayer);
 		if (ActivePlayer == "diseasePlayer") {
-			Instantiate (RunGame.RedPlayerGameObject, new Vector2 (RunGame.RedPlayerSpawn.transform.position.x, RunGame.RedPlayerSpawn.transform.position.y), Quaternion.identity);
+			SpawnRedPlayer.Spawn ();
+//			Instantiate (RunGame.RedPlayerGameObject, new Vector2 (RunGame.RedPlayerSpawn.transform.position.x, RunGame.RedPlayerSpawn.transform.position.y), Quaternion.identity);
 		} else {
 //			Instantiate (BluePlayerGameObjectHorizontal, new Vector2 (BluePlayerSpawn.transform.position.x,
 //				BluePlayerSpawn.transform.position.y),
@@ -44,8 +45,11 @@ public class RunGame : MonoBehaviour {
 	public static void ToggleActivePlayer() {
 		if (ActivePlayer == "diseasePlayer") {
 			ActivePlayer = "curePlayer";
+			SpawnBluePlayer.Spawn ();
+//			SpawnRedPlayer.Spawn ();
 		} else {
 			ActivePlayer = "diseasePlayer";
+			SpawnRedPlayer.Spawn ();
 		}
 		Debug.Log ("New active player is " + ActivePlayer);
 
