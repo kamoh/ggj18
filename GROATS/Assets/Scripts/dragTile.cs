@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class dragTile : MonoBehaviour {
 
@@ -39,6 +40,21 @@ public class dragTile : MonoBehaviour {
 			Debug.Log ("Valid move! Great!");
 			Debug.Log ("This is " + this);
 
+//			Debug.Log("The array contains these elements: " +String.Join("",
+//				new List<int>(RunGame.TriggeredBackgroundTiles)
+//				.ConvertAll(i => i.ToString())
+//				.ToArray()));
+
+			foreach(String element in RunGame.TriggeredBackgroundTiles)
+			{
+				Debug.Log( element );
+			}
+
+			// get each valid tile that is being affected
+			// get the color/team of the player that is placing the new piece
+			// in a loop, change the image of each tile to the new one
+
+			// When the move is done, destroy the piece that was placed by the player
 			foreach (Transform child in transform) {
 				Destroy (child.gameObject);
 			}
